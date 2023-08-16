@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 
 def initialize_excitation_fields(n_excitation):

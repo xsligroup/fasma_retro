@@ -64,7 +64,6 @@ def find_iop(file_keyword_trie, file_lines, overlay: str, iops: list) -> list:
                     raise ValueError("This is not a TD calculation.")
                 elif current_iop == "41" and overlay == "9":
                     raise ValueError("This is not a TD calculation.")
-                    #raise IndexError("This TD calculation has only one state.")
                 elif current_iop == "32" and overlay == "9":
                     raise ValueError("This is calculation doesn't contain a PDM. Missing IOP " + str(overlay) + "/" + str(current_iop) + ".")
                 elif i == 0:

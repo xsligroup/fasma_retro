@@ -1,5 +1,4 @@
 class KeywordTrie:
-    # Maybe implement compressed trie for further efficiency in the future.
     """
     A dictionary that uses a trie to store important keyword strings along with
     the line-numbers that these strings and their prefixes appear in.

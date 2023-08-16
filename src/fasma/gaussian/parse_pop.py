@@ -2,7 +2,6 @@ from fasma.core import boxes as bx
 from fasma.core import messages as msg
 from fasma.gaussian import parse_functions
 from fasma.gaussian import parse_matrices
-import pandas as pd
 import numpy as np
 import math as m
 

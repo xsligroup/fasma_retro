@@ -78,7 +78,6 @@ def verify_td_completeness(file_keyword_trie, n_excitation):
     return state_lines
 
 
-# Breakdown method in the future
 def td_get_excited_state(basic, file_lines, line_num, n_active_space_mo):
     current_line = file_lines[line_num - 1].split()
     if basic.scf_type == "GHF":
@@ -109,7 +108,6 @@ def td_get_excited_state(basic, file_lines, line_num, n_active_space_mo):
             from_mo = int(current_line[0].replace("A", "")) - 1
             to_mo = int(current_line[2].replace("A", "")) - 1
             current_delta_diag = alpha_delta_diagonal
-        # SKETCHY MATH
         if basic.scf_type in ["RHF", "ROHF"]:
             multiplier = 2
         elif basic.scf_type in ["UHF", "GHF"]:

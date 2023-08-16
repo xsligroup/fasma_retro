@@ -1,7 +1,6 @@
 from fasma.gaussian import parse_gaussian as pg
 from fasma.core import file_reader as fr
 from fasma.core import boxes as bx
-#import parse_chronus as pc
 import numpy as np
 import pandas as pd
 import pickle
@@ -10,14 +9,10 @@ def parse(filename):
     key_trie_list, file_lines_list, file_type = fr.read(filename)
     if file_type == "Gaussian":
         parse_meth = pg.parse
-    #elif file_type == "ChronusQ":
-        #parse_meth = pc.parse
     box_list = []
     for current_key_trie, current_file_lines in zip(key_trie_list, file_lines_list):
         current_box = pg.parse(current_key_trie, current_file_lines)
         box_list.append(current_box)
-    #elif file_type == "ChronusQ":
-        #current_box = pc.parse(file_key_trie, file_lines, file_type)
     if len(box_list) == 1:
         box_list = box_list[0]
     return box_list

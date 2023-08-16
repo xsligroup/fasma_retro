@@ -2,8 +2,6 @@ from fasma.core import functional
 from dataclasses import dataclass, field
 from typing import Optional
 import numpy as np
-import psutil
-import math
 
 
 @dataclass
@@ -81,27 +79,7 @@ class SimulatedSpectrum(Spectrum):
         n_points = int((wlim[1] - wlim[0]) * res)
 
         self.freq = np.linspace(wlim[0], wlim[1], n_points) + xshift
-        #self.freq = self.freq[:, None]
         self.spect = np.zeros(n_points)
 
-        if nani:
-            stats = psutil.virtual_memory()  # returns a named tuple
-            available = getattr(stats, 'available') / 2
-            max_roots_per_cycle = math.floor(available / (8 * n_points))
-            if max_roots_per_cycle > len(self.x):
-                max_roots_per_cycle = len(self.x)
-            print(len(self.x))
-            chunks = math.ceil(len(self.x) / max_roots_per_cycle)
-            print(chunks)
-            split_x = np.array_split(self.x, chunks)
-            split_y = np.array_split(self.y, chunks)
-
-            for current_x, current_y in zip(split_x, split_y):
-                self.spect += meth(broad, current_x, current_y, self.freq)
-        else:
-            #with concurrent.futures.ThreadPoolExecutor() as executor:
-                #futures = [executor.submit(meth, broad, current_x, current_y, self.freq) for current_x, current_y in zip(self.x, self.y) if current_y != 0]
-                #for future in concurrent.futures.as_completed(futures):
-                    #self.spect += future.result()
-            for current_x, current_y in zip(self.x, self.y):
-                self.spect += meth(broad, current_x, current_y, self.freq)
+        for current_x, current_y in zip(self.x, self.y):
+            self.spect += meth(broad, current_x, current_y, self.freq)
