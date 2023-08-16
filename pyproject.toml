@@ -1,0 +1,39 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "fasma"
+version = "1.0.0"
+description = "Analyzer for computational chemistry outputs"
+readme = "README.md"
+authors = [{ name = "Kevin Hoang", email = "khoang89@uw.edu" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Chemistry"
+]
+keywords = ["chemistry", "gaussian", "chronus", "spectra"]
+dependencies = [
+    "numpy>=1.23.0",
+    "matplotlib>=3.5.2",
+    "scipy>=1.9.1",
+    "pandas>=1.4.3"
+]
+requires-python = ">=3.9"
+
+#[project.optional-dependencies]
+#dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/xsligroup/fasma"
+
+#[project.scripts]
+#realpython = "reader.__main__:main"
