@@ -148,7 +148,10 @@ def define_axis(ax=None, energy_unit: str = "ev", xlabel: str = "Energy", ylabel
         ax.set_zlabel(zlabel)
         ax.zaxis.labelpad = 7.5
     if title is not None:
-        ax.set_title(title)
+        if waterfall:
+            ax.set_title(title, x=0.5, y=1.05)
+        else:
+            ax.set_title(title)
     return figure, ax
 
 
