@@ -206,13 +206,13 @@ def find_limit(spectra_dict, axis_type):
     return proposed_lim
 
 
-def find_lim(axis_type, spectra, paired_experimental):
+def find_lim(axis_type, spectra, paired_experimental, ax):
     axis_type = int(axis_type == "y")
     sim_lim = find_limit(spectra, axis_type)
     if paired_experimental:
         experimental_lim = find_limit(paired_experimental, axis_type)
         sim_lim = (np.min([sim_lim, experimental_lim]), np.max([sim_lim, experimental_lim]))
-    marg = (sim_lim[1] - sim_lim[0]) * plt.margins()[axis_type]
+    marg = (sim_lim[1] - sim_lim[0]) * ax.margins()[axis_type]
     lim = (sim_lim[0] - marg, sim_lim[1] + marg)
     return lim
 
@@ -223,11 +223,11 @@ def plot(ax, spectra: dict, paired_experimental: dict = {}, xlim: tuple = None, 
     waterfall = ax.name == "3d"
     check_energy_units(energy_unit)
     if xlim is None:
-        xlim = find_lim("x", spectra, paired_experimental)
+        xlim = find_lim("x", spectra, paired_experimental, ax)
     filtered_spect_dict = filter_spect_lim("x", spectra, xlim, keep_all)
     filtered_experimental_dict = filter_spect_lim("x", paired_experimental, xlim, keep_all)
     if ylim is None:
-        ylim = find_lim("y", filtered_spect_dict, filtered_experimental_dict)
+        ylim = find_lim("y", filtered_spect_dict, filtered_experimental_dict, ax)
     if waterfall:
         spectra = filter_spect_lim("y", filtered_spect_dict, ylim, keep_all)
         paired_experimental = filter_spect_lim("y", filtered_experimental_dict, ylim, keep_all)

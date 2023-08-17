@@ -30,7 +30,7 @@ dependencies = [
 requires-python = ">=3.9"
 
 [project.optional-dependencies]
-data = ["notebook >= 6.5.4"]
+data = ["notebook >= 6.5.4", "jupyter"]
 #dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
 
 [project.urls]
