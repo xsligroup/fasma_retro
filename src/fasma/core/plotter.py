@@ -133,10 +133,12 @@ def define_axis(ax=None, energy_unit: str = "ev", xlabel: str = "Energy", ylabel
             ax = plt.figure().add_subplot(projection='3d')
         else:
             ax = plt.figure().add_subplot()
+    figure = ax.get_figure()
     if waterfall:
         temp = ylabel
         ylabel = zlabel
         zlabel = temp
+        figure.add_axes([0, 0, 1, 1]).axis("off")
     if xlabel is not None:
         xlabel += " (" + energy_unit + ")"
         ax.set_xlabel(xlabel)
@@ -147,7 +149,6 @@ def define_axis(ax=None, energy_unit: str = "ev", xlabel: str = "Energy", ylabel
         ax.zaxis.labelpad = 7.5
     if title is not None:
         ax.set_title(title)
-    figure = ax.get_figure()
     return figure, ax
 
 
