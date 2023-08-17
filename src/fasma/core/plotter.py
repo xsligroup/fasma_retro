@@ -231,6 +231,8 @@ def plot(ax, spectra: dict, paired_experimental: dict = {}, xlim: tuple = None, 
     if waterfall:
         spectra = filter_spect_lim("y", filtered_spect_dict, ylim, keep_all)
         paired_experimental = filter_spect_lim("y", filtered_experimental_dict, ylim, keep_all)
+        if zlim is None:
+            zlim = (0, len(spectra) + len(paired_experimental))
     spect_idx, colors, color_kw, ymin = plot_initialization(ax, waterfall, colors, xlim, ylim, zlim, xshift, yscale)
     s_args, exp_args = define_line_style(waterfall, kwargs)
 

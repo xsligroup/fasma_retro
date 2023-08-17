@@ -84,7 +84,7 @@ def get_spectra_dict(dataframe, spectra_name="", keep_all=False):
             else:
                 mo_parameter_list = [current_mo]
             parameter_list = state_parameter_list + mo_parameter_list + ao_parameter_list
-            current_spectra_name = (spectra_name + label.format(*parameter_list)).strip()
+            current_spectra_name = (spectra_name + " " + label.format(*parameter_list)).strip()
             new_x = xy[:, 0]
             new_y = xy[:, 1]
             if new_y.any() or keep_all:

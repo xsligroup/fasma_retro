@@ -1,0 +1,1082 @@
+ Entering Gaussian System, Link 0=g16
+ Input=/Users/laurenkoulias/Downloads/Na_uhf.gjf
+ Output=/Users/laurenkoulias/Downloads/Na_uhf.log
+ Initial command:
+ /Applications/g16/l1.exe "/Users/laurenkoulias/Downloads/Gau-41327.inp" -scrdir="/Users/laurenkoulias/Downloads/"
+ Entering Link 1 = /Applications/g16/l1.exe PID=     41329.
+  
+ Copyright (c) 1988-2017, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision B.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2016.
+ 
+ ******************************************
+ Gaussian 16:  EM64M-G16RevB.01 20-Dec-2017
+                15-Jul-2022 
+ ******************************************
+ %chk=Na_uhf.chk
+ --------------------------------
+ # uhf/3-21g pop=full iop(3/33=1)
+ --------------------------------
+ 1/38=1,172=1/1;
+ 2/12=2,17=6,18=5,40=1/2;
+ 3/5=5,11=2,25=1,30=1,33=1,116=2/1,2,3;
+ 4//1;
+ 5/5=2,38=5/2;
+ 6/7=3,28=1/1;
+ 99/5=1,9=1/99;
+ -------------------
+ Title Card Required
+ -------------------
+ Symbolic Z-matrix:
+ Charge =  0 Multiplicity = 2
+ Na                   -1.47239   1.13497   0. 
+ 
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1         11           0       -1.472393    1.134969    0.000000
+ ---------------------------------------------------------------------
+ Stoichiometry    Na(2)
+ Framework group  OH[O(Na)]
+ Deg. of freedom     0
+ Full point group                 OH      NOp  48
+ Largest Abelian subgroup         D2H     NOp   8
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1         11           0        0.000000    0.000000    0.000000
+ ---------------------------------------------------------------------
+ Standard basis: 3-21G (6D, 7F)
+                         Coordinates in L301:                         
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1         11           0        0.000000    0.000000    0.000000
+ ---------------------------------------------------------------------
+ FixB: optimizing general contractions.
+ Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
+ IA=     1 ShT= 0 ShC= 0 NL=   1 NS=   0.
+ IA=     1 L=0 SC=0 ISt=    0 NBk=    0 NP=    0 IndPr=    0.
+ IA=     1 ShT= 1 ShC= 0 NL=   3 NS=   1.
+ IA=     1 L=1 SC=0 ISt=    1 NBk=    2 NP=    5 IndPr=    0.
+ DoElim1:  L=1 select primitive    1 from    2 using    1 C=-1.12D-01
+ DoElim2:  L=1 select primitive    5 from    1 using    2 C= 1.09D+00
+ DoElim1:  L=1 select primitive    1 from    2 using    1 C= 1.28D-01
+ DoElim2:  L=1 select primitive    5 from    1 using    2 C= 9.97D-01
+ Delete L=1 primitive    3 from    2 C=  0.00D+00.
+ Delete L=1 primitive    2 from    2 C=  0.00D+00.
+ Delete L=1 primitive    1 from    2 C=  0.00D+00.
+ Delete L=1 primitive    5 from    1 C=  0.00D+00.
+ Delete L=1 primitive    4 from    1 C=  0.00D+00.
+ IA=     1 L=1 SC=0 ISt=    0 NBk=    0 NP=    0 IndPr=    5.
+ LdAtmC:  AtmChg=    11.000000
+ AtZEff=    -10.0400000
+ NEqShl: 
+              1            2            3            4            5
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+              6            7            8            9           10
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             11           12           13           14           15
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             16           17           18           19           20
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             21           22           23           24           25
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             26           27           28           29           30
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             31           32           33           34           35
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             36           37           38           39           40
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             41           42           43           44           45
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             46           47           48
+     1            1            1            1
+     2            2            2            2
+     3            3            3            3
+     4            4            4            4
+ NEqBas: 
+              1            2            3            4            5
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3           -3           -3           -3
+     4            4           -4            4           -4           -4
+     5            5           -5           -5            5           -5
+     6            6            6            6            6            6
+     7            7            7           -7           -7           -7
+     8            8           -8            8           -8           -8
+     9            9           -9           -9            9           -9
+    10           10           10           10           10           10
+    11           11           11          -11          -11          -11
+    12           12          -12           12          -12          -12
+    13           13          -13          -13           13          -13
+              6            7            8
+     1            1            1            1
+     2            2            2            2
+     3           -3            3            3
+     4            4           -4            4
+     5            5            5           -5
+     6            6            6            6
+     7           -7            7            7
+     8            8           -8            8
+     9            9            9           -9
+    10           10           10           10
+    11          -11           11           11
+    12           12          -12           12
+    13           13           13          -13
+ There are     4 symmetry adapted cartesian basis functions of AG  symmetry.
+   1         1   1   1   1   1   1   1   1
+   2         2   2   2   2   2   2   2   2
+   3         6   6   6   6   6   6   6   6
+   4        10  10  10  10  10  10  10  10
+ There are     0 symmetry adapted cartesian basis functions of B1G symmetry.
+ There are     0 symmetry adapted cartesian basis functions of B2G symmetry.
+ There are     0 symmetry adapted cartesian basis functions of B3G symmetry.
+ There are     0 symmetry adapted cartesian basis functions of AU  symmetry.
+ There are     3 symmetry adapted cartesian basis functions of B1U symmetry.
+   5         5   5   5   5   5   5   5   5
+   6         9   9   9   9   9   9   9   9
+   7        13  13  13  13  13  13  13  13
+ There are     3 symmetry adapted cartesian basis functions of B2U symmetry.
+   8         4   4   4   4   4   4   4   4
+   9         8   8   8   8   8   8   8   8
+  10        12  12  12  12  12  12  12  12
+ There are     3 symmetry adapted cartesian basis functions of B3U symmetry.
+  11         3   3   3   3   3   3   3   3
+  12         7   7   7   7   7   7   7   7
+  13        11  11  11  11  11  11  11  11
+ Order= 1 4 3 2 5 8 7 6
+ Reordered character table:
+              1            2            3            4            5
+     1            1            1            1            1            1
+     2            4            1           -1           -1            1
+     3            3            1           -1            1           -1
+     4            2            1            1           -1           -1
+     5            5            1            1            1            1
+     6            8            1           -1           -1            1
+     7            7            1           -1            1           -1
+     8            6            1            1           -1           -1
+              6            7            8            9
+     1            1            1            1            1
+     2            1           -1           -1            1
+     3            1           -1            1           -1
+     4            1            1           -1           -1
+     5           -1           -1           -1           -1
+     6           -1            1            1           -1
+     7           -1            1           -1            1
+     8           -1           -1            1            1
+ NEqShl: 
+              1            2            3            4            5
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+              6            7            8            9           10
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             11           12           13           14           15
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             16           17           18           19           20
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             21           22           23           24           25
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             26           27           28           29           30
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             31           32           33           34           35
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             36           37           38           39           40
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             41           42           43           44           45
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3            3            3            3
+     4            4            4            4            4            4
+             46           47           48
+     1            1            1            1
+     2            2            2            2
+     3            3            3            3
+     4            4            4            4
+ NEqBas: 
+              1            2            3            4            5
+     1            1            1            1            1            1
+     2            2            2            2            2            2
+     3            3            3           -3           -3           -3
+     4            4           -4            4           -4           -4
+     5            5           -5           -5            5           -5
+     6            6            6            6            6            6
+     7            7            7           -7           -7           -7
+     8            8           -8            8           -8           -8
+     9            9           -9           -9            9           -9
+    10           10           10           10           10           10
+    11           11           11          -11          -11          -11
+    12           12          -12           12          -12          -12
+    13           13          -13          -13           13          -13
+              6            7            8
+     1            1            1            1
+     2            2            2            2
+     3           -3            3            3
+     4            4           -4            4
+     5            5            5           -5
+     6            6            6            6
+     7           -7            7            7
+     8            8           -8            8
+     9            9            9           -9
+    10           10           10           10
+    11          -11           11           11
+    12           12          -12           12
+    13           13           13          -13
+ There are     4 symmetry adapted basis functions of AG  symmetry.
+   1         1   1   1   1   1   1   1   1
+   2         2   2   2   2   2   2   2   2
+   3         6   6   6   6   6   6   6   6
+   4        10  10  10  10  10  10  10  10
+ There are     0 symmetry adapted basis functions of B1G symmetry.
+ There are     0 symmetry adapted basis functions of B2G symmetry.
+ There are     0 symmetry adapted basis functions of B3G symmetry.
+ There are     0 symmetry adapted basis functions of AU  symmetry.
+ There are     3 symmetry adapted basis functions of B1U symmetry.
+   5         5   5   5   5   5   5   5   5
+   6         9   9   9   9   9   9   9   9
+   7        13  13  13  13  13  13  13  13
+ There are     3 symmetry adapted basis functions of B2U symmetry.
+   8         4   4   4   4   4   4   4   4
+   9         8   8   8   8   8   8   8   8
+  10        12  12  12  12  12  12  12  12
+ There are     3 symmetry adapted basis functions of B3U symmetry.
+  11         3   3   3   3   3   3   3   3
+  12         7   7   7   7   7   7   7   7
+  13        11  11  11  11  11  11  11  11
+ Order= 1 4 3 2 5 8 7 6
+ Reordered character table:
+              1            2            3            4            5
+     1            1            1            1            1            1
+     2            4            1           -1           -1            1
+     3            3            1           -1            1           -1
+     4            2            1            1           -1           -1
+     5            5            1            1            1            1
+     6            8            1           -1           -1            1
+     7            7            1           -1            1           -1
+     8            6            1            1           -1           -1
+              6            7            8            9
+     1            1            1            1            1
+     2            1           -1           -1            1
+     3            1           -1            1           -1
+     4            1            1           -1           -1
+     5           -1           -1           -1           -1
+     6           -1            1            1           -1
+     7           -1            1           -1            1
+     8           -1           -1            1            1
+    13 basis functions,    27 primitive gaussians,    13 cartesian basis functions
+     6 alpha electrons        5 beta electrons
+       nuclear repulsion energy         0.0000000000 Hartrees.
+ IS=     1 IAt=     1 ISR=     1 T=0 IP=      1 IndIP=      1 IndIPD=      0 C=  5.445177D+00  0.000000D+00                             NZ=T
+ IS=     1 IAt=     1 ISR=     1 T=0 IP=      2 IndIP=      2 IndIPD=      1 C=  7.646982D+00  0.000000D+00                             NZ=T
+ IS=     1 IAt=     1 ISR=     1 T=0 IP=      3 IndIP=      3 IndIPD=      2 C=  4.092173D+00  0.000000D+00                             NZ=T
+ IS=     2 IAt=     1 ISR=     2 T=1 IP=      1 IndIP=      4 IndIPD=      0 C= -6.837842D-01  6.561431D+00                             NZ=T
+ IS=     2 IAt=     1 ISR=     2 T=1 IP=      2 IndIP=      5 IndIPD=      1 C=  4.933805D-01  3.558943D+00                             NZ=T
+ IS=     2 IAt=     1 ISR=     2 T=1 IP=      3 IndIP=      6 IndIPD=      2 C=  5.590773D-01  7.618119D-01                             NZ=T
+ IS=     3 IAt=     1 ISR=     3 T=1 IP=      1 IndIP=      7 IndIPD=      0 C= -9.334168D-02  5.458439D-03                             NZ=T
+ IS=     3 IAt=     1 ISR=     3 T=1 IP=      2 IndIP=      8 IndIPD=      1 C=  9.521265D-02  4.304303D-02                             NZ=T
+ IS=     4 IAt=     1 ISR=     4 T=1 IP=      1 IndIP=      9 IndIPD=      0 C=  4.404717D-02  1.377061D-02                             NZ=T
+ IExCor=    0 DFT=F Ex=HF Corr=None ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=    1 NActive=    1 NUniq=    1 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
+ Two-electron integral symmetry is turned on.
+ NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
+         NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
+ One-electron integrals computed using PRISM.
+ Entering OneElI...
+ Calculate overlap and kinetic energy integrals
+    NBasis =  13  MinDer = 0  MaxDer = 0
+ Requested accuracy = 0.1000D-12
+ Symmetry will be used
+ PrmmSu-InSpLW:  IPartL=    0 NPrtUS=    1 NPrtUL=    1 DoSpLW=F IThBeg=    0 IThEnd=    0 NThAct=    1.
+ PrSmSu:  IncTry=   512 NBBP=             10 NTPThr=   100 NPartT=    1 Incr=           1 LDynOK=F GPUOK=F.
+ PrsmSu:  NPrtUS=   1 ThrOK=F IAlg=2 LenDen=           0 ISkipM=0 DoSpLW=F IThBeg=    0 IThEnd=    0.
+ Prism:   IPart=     0 DynPar=F LinDyn=F Incr=           1.
+ PRISM was handed   104854188 working-precision words and    10 shell-pairs
+ IPart=  0 NShTot=          10 NBatch=          10 AvBLen=         1.0
+ PrSmSu:  NxtVal=              2.
+ *** Overlap *** 
+                1             2             3             4             5 
+      1  0.100000D+01
+      2  0.226762D+00  0.100000D+01
+      3  0.000000D+00  0.000000D+00  0.100000D+01
+      4  0.000000D+00  0.000000D+00  0.000000D+00  0.100000D+01
+      5  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.100000D+01
+      6  0.175172D-02  0.143132D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7  0.000000D+00  0.000000D+00  0.120813D+00  0.000000D+00  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00  0.120813D+00  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.120813D+00
+     10  0.160858D-01  0.166618D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11  0.000000D+00  0.000000D+00  0.399192D-01  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.000000D+00  0.399192D-01  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.399192D-01
+                6             7             8             9            10 
+      6  0.100000D+01
+      7  0.000000D+00  0.100000D+01
+      8  0.000000D+00  0.000000D+00  0.100000D+01
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.100000D+01
+     10  0.876080D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.100000D+01
+     11  0.000000D+00  0.775774D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.775774D+00  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.775774D+00  0.000000D+00
+               11            12            13 
+     11  0.100000D+01
+     12  0.000000D+00  0.100000D+01
+     13  0.000000D+00  0.000000D+00  0.100000D+01
+ *** Kinetic Energy *** 
+                1             2             3             4             5 
+      1  0.570648D+02
+      2 -0.145971D+01  0.183414D+01
+      3  0.000000D+00  0.000000D+00  0.585712D+01
+      4  0.000000D+00  0.000000D+00  0.000000D+00  0.585712D+01
+      5  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.585712D+01
+      6 -0.420609D-01 -0.141303D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7  0.000000D+00  0.000000D+00  0.441422D-01  0.000000D+00  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00  0.441422D-01  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.441422D-01
+     10  0.117775D-02  0.119127D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     11  0.000000D+00  0.000000D+00  0.476129D-02  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.000000D+00  0.476129D-02  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.476129D-02
+                6             7             8             9            10 
+      6  0.106538D+00
+      7  0.000000D+00  0.153112D+00
+      8  0.000000D+00  0.000000D+00  0.153112D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.153112D+00
+     10  0.447876D-01  0.000000D+00  0.000000D+00  0.000000D+00  0.366524D-01
+     11  0.000000D+00  0.676855D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.676855D-01  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.676855D-01  0.000000D+00
+               11            12            13 
+     11  0.610872D-01
+     12  0.000000D+00  0.610872D-01
+     13  0.000000D+00  0.000000D+00  0.610872D-01
+ Entering OneElI...
+ Calculate potential energy integrals
+    NBasis =  13  MinDer = 0  MaxDer = 0
+ Requested accuracy = 0.1000D-12
+ Symmetry will be used
+ PrmmSu-InSpLW:  IPartL=    0 NPrtUS=    1 NPrtUL=    1 DoSpLW=F IThBeg=    0 IThEnd=    0 NThAct=    1.
+ PrSmSu:  IncTry=   512 NBBP=             10 NTPThr=   100 NPartT=    1 Incr=           1 LDynOK=F GPUOK=F.
+ PrsmSu:  NPrtUS=   1 ThrOK=F IAlg=2 LenDen=           0 ISkipM=0 DoSpLW=F IThBeg=    0 IThEnd=    0.
+ Prism:   IPart=     0 DynPar=F LinDyn=F Incr=           1.
+ PRISM was handed   104854188 working-precision words and    10 shell-pairs
+ IPart=  0 NShTot=          10 NBatch=          10 AvBLen=         1.0
+ PrSmSu:  NxtVal=              2.
+ ***** Potential Energy ***** 
+                1             2             3             4             5 
+      1  0.117154D+03
+      2  0.127427D+02  0.181162D+02
+      3  0.000000D+00  0.000000D+00  0.186372D+02
+      4  0.000000D+00  0.000000D+00  0.000000D+00  0.186372D+02
+      5  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.186372D+02
+      6  0.824289D-01  0.133210D+01  0.000000D+00  0.000000D+00  0.000000D+00
+      7  0.000000D+00  0.000000D+00  0.114082D+01  0.000000D+00  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00  0.114082D+01  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.114082D+01
+     10  0.101705D+01  0.210325D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     11  0.000000D+00  0.000000D+00  0.363099D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.000000D+00  0.363099D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.363099D+00
+                6             7             8             9            10 
+      6  0.355734D+01
+      7  0.000000D+00  0.290769D+01
+      8  0.000000D+00  0.000000D+00  0.290769D+01
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.290769D+01
+     10  0.285492D+01  0.000000D+00  0.000000D+00  0.000000D+00  0.274390D+01
+     11  0.000000D+00  0.187947D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.187947D+01  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.187947D+01  0.000000D+00
+               11            12            13 
+     11  0.182927D+01
+     12  0.000000D+00  0.182927D+01
+     13  0.000000D+00  0.000000D+00  0.182927D+01
+ ****** Core Hamiltonian ****** 
+                1             2             3             4             5 
+      1 -0.600896D+02
+      2 -0.142024D+02 -0.162821D+02
+      3  0.000000D+00  0.000000D+00 -0.127801D+02
+      4  0.000000D+00  0.000000D+00  0.000000D+00 -0.127801D+02
+      5  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.127801D+02
+      6 -0.124490D+00 -0.147340D+01  0.000000D+00  0.000000D+00  0.000000D+00
+      7  0.000000D+00  0.000000D+00 -0.109668D+01  0.000000D+00  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00 -0.109668D+01  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.109668D+01
+     10 -0.101587D+01 -0.209133D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     11  0.000000D+00  0.000000D+00 -0.358337D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.000000D+00 -0.358337D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00 -0.358337D+00
+                6             7             8             9            10 
+      6 -0.345080D+01
+      7  0.000000D+00 -0.275458D+01
+      8  0.000000D+00  0.000000D+00 -0.275458D+01
+      9  0.000000D+00  0.000000D+00  0.000000D+00 -0.275458D+01
+     10 -0.281013D+01  0.000000D+00  0.000000D+00  0.000000D+00 -0.270725D+01
+     11  0.000000D+00 -0.181178D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00 -0.181178D+01  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00 -0.181178D+01  0.000000D+00
+               11            12            13 
+     11 -0.176818D+01
+     12  0.000000D+00 -0.176818D+01
+     13  0.000000D+00  0.000000D+00 -0.176818D+01
+ SVDSVc IOpt=   1 NormSV=T IR=1
+ SVDSVc V= 1.93D+00 1.19D+00 7.53D-01 1.24D-01
+ SVDSVc IOpt=   1 NormSV=T IR=6
+ SVDSVc V= 1.79D+00 9.88D-01 2.20D-01
+ SVDSVc IOpt=   1 NormSV=T IR=7
+ SVDSVc V= 1.79D+00 9.88D-01 2.20D-01
+ SVDSVc IOpt=   1 NormSV=T IR=8
+ SVDSVc V= 1.79D+00 9.88D-01 2.20D-01
+ TstOVc:  Largest diagonal error= 7.11D-15 IB=1 I=    4.
+ TstOVc:  Largest same sym error= 6.73D-16 IB=1 I=    4 J=    3.
+ TstOVc:  Largest diff sym error= 7.01D-33 IB=8 JB=7 I=   13 J=   10.
+ Orthogonalized basis functions: 
+                 1             2             3             4             5 
+      1   0.522532D-01  0.679601D+00 -0.768384D+00 -0.199625D-01  0.000000D+00
+      2   0.176104D+00  0.581733D+00  0.844170D+00 -0.503393D-01  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.106366D+00
+      6   0.490443D+00 -0.151259D+00 -0.117341D+00 -0.200674D+01  0.000000D+00
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.525558D+00
+     10   0.493144D+00 -0.129319D+00 -0.103340D+00  0.201584D+01  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.520070D+00
+                 6             7             8             9            10 
+      1   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      2   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      4   0.000000D+00  0.000000D+00  0.106366D+00  0.993078D+00 -0.157598D+00
+      5   0.993078D+00 -0.157598D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8   0.000000D+00  0.000000D+00  0.525558D+00 -0.486986D-01  0.151160D+01
+      9  -0.486986D-01  0.151160D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12   0.000000D+00  0.000000D+00  0.520070D+00 -0.153894D+00 -0.149532D+01
+     13  -0.153894D+00 -0.149532D+01  0.000000D+00  0.000000D+00  0.000000D+00
+                11            12            13 
+      1   0.000000D+00  0.000000D+00  0.000000D+00
+      2   0.000000D+00  0.000000D+00  0.000000D+00
+      3   0.106366D+00  0.993078D+00 -0.157598D+00
+      4   0.000000D+00  0.000000D+00  0.000000D+00
+      5   0.000000D+00  0.000000D+00  0.000000D+00
+      6   0.000000D+00  0.000000D+00  0.000000D+00
+      7   0.525558D+00 -0.486986D-01  0.151160D+01
+      8   0.000000D+00  0.000000D+00  0.000000D+00
+      9   0.000000D+00  0.000000D+00  0.000000D+00
+     10   0.000000D+00  0.000000D+00  0.000000D+00
+     11   0.520070D+00 -0.153894D+00 -0.149532D+01
+     12   0.000000D+00  0.000000D+00  0.000000D+00
+     13   0.000000D+00  0.000000D+00  0.000000D+00
+ NBasis=    13 RedAO= T EigKep=  1.24D-01  NBF=     4     0     0     0     0     3     3     3
+ NBsUse=    13 1.00D-06 EigRej= -1.00D+00 NBFU=     4     0     0     0     0     3     3     3
+ DipPsm:  J= 1 NJ= 4 MaxL=1 MMat= 4 MaxMat= 4.
+ DipInt: DoE/N= T F RetVal/Mat= F T Init=T NMatP=  4 IDeriv=0 Min/MaxMlt=  0  1
+ Entering OneElI...
+ Multipole integrals L=0 to 1 MinM= 0 MaxM= 3.
+ Requested accuracy = 0.1000D-12
+ PrmmSu-InSpLW:  IPartL=    0 NPrtUS=    1 NPrtUL=    1 DoSpLW=F IThBeg=    0 IThEnd=    0 NThAct=    1.
+ PrSmSu:  IncTry=   512 NBBP=             10 NTPThr=   100 NPartT=    1 Incr=           1 LDynOK=F GPUOK=F.
+ PrsmSu:  NPrtUS=   1 ThrOK=F IAlg=2 LenDen=           0 ISkipM=0 DoSpLW=F IThBeg=    0 IThEnd=    0.
+ Prism:   IPart=     0 DynPar=F LinDyn=F Incr=           1.
+ PRISM was handed   104855129 working-precision words and    10 shell-pairs
+ IPart=  0 NShTot=          10 NBatch=          10 AvBLen=         1.0
+ PrSmSu:  NxtVal=              2.
+ Multipole matrices IBuc=  518 IX=    1 IJ=           1:
+                1             2             3             4             5 
+      1  0.000000D+00
+      2  0.000000D+00  0.000000D+00
+      3  0.377149D-01  0.441639D+00  0.000000D+00
+      4  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      5  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6  0.000000D+00  0.000000D+00  0.143537D+00  0.000000D+00  0.000000D+00
+      7  0.430333D-03  0.785516D-01  0.000000D+00  0.000000D+00  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10  0.000000D+00  0.000000D+00  0.127687D+00  0.000000D+00  0.000000D+00
+     11  0.123594D-03  0.262820D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                6             7             8             9            10 
+      6  0.000000D+00
+      7  0.215728D+01  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10  0.000000D+00  0.248142D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     11  0.169592D+01  0.000000D+00  0.000000D+00  0.000000D+00  0.319864D+01
+     12  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+               11            12            13 
+     11  0.000000D+00
+     12  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00
+ Multipole matrices IBuc=  518 IX=    2 IJ=           1:
+                1             2             3             4             5 
+      1  0.000000D+00
+      2  0.000000D+00  0.000000D+00
+      3  0.000000D+00  0.000000D+00  0.000000D+00
+      4  0.377149D-01  0.441639D+00  0.000000D+00  0.000000D+00
+      5  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6  0.000000D+00  0.000000D+00  0.000000D+00  0.143537D+00  0.000000D+00
+      7  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8  0.430333D-03  0.785516D-01  0.000000D+00  0.000000D+00  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10  0.000000D+00  0.000000D+00  0.000000D+00  0.127687D+00  0.000000D+00
+     11  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.123594D-03  0.262820D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+                6             7             8             9            10 
+      6  0.000000D+00
+      7  0.000000D+00  0.000000D+00
+      8  0.215728D+01  0.000000D+00  0.000000D+00
+      9  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     10  0.000000D+00  0.000000D+00  0.248142D+01  0.000000D+00  0.000000D+00
+     11  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.169592D+01  0.000000D+00  0.000000D+00  0.000000D+00  0.319864D+01
+     13  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+               11            12            13 
+     11  0.000000D+00
+     12  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00
+ Multipole matrices IBuc=  518 IX=    3 IJ=           1:
+                1             2             3             4             5 
+      1  0.000000D+00
+      2  0.000000D+00  0.000000D+00
+      3  0.000000D+00  0.000000D+00  0.000000D+00
+      4  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      5  0.377149D-01  0.441639D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      6  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.143537D+00
+      7  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+      9  0.430333D-03  0.785516D-01  0.000000D+00  0.000000D+00  0.000000D+00
+     10  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.127687D+00
+     11  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13  0.123594D-03  0.262820D-01  0.000000D+00  0.000000D+00  0.000000D+00
+                6             7             8             9            10 
+      6  0.000000D+00
+      7  0.000000D+00  0.000000D+00
+      8  0.000000D+00  0.000000D+00  0.000000D+00
+      9  0.215728D+01  0.000000D+00  0.000000D+00  0.000000D+00
+     10  0.000000D+00  0.000000D+00  0.000000D+00  0.248142D+01  0.000000D+00
+     11  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     12  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00  0.000000D+00
+     13  0.169592D+01  0.000000D+00  0.000000D+00  0.000000D+00  0.319864D+01
+               11            12            13 
+     11  0.000000D+00
+     12  0.000000D+00  0.000000D+00
+     13  0.000000D+00  0.000000D+00  0.000000D+00
+ Fermi contact integrals: 
+                 1 
+      1   0.171843D+02
+      2   0.368674D+00
+      3   0.000000D+00
+      4   0.000000D+00
+      5   0.000000D+00
+      6   0.187097D-02
+      7   0.000000D+00
+      8   0.000000D+00
+      9   0.000000D+00
+     10   0.440472D-01
+     11   0.000000D+00
+     12   0.000000D+00
+     13   0.000000D+00
+ ExpMin= 2.44D-02 ExpMax= 5.48D+02 ExpMxC= 5.48D+02 IAcc=3 IRadAn=         5 AccDes= 0.00D+00
+ Harris functional with IExCor=  205 and IRadAn=       5 diagonalized for initial guess.
+ HarFok:  IExCor=  205 AccDes= 0.00D+00 IRadAn=         5 IDoV= 1 UseB2=F ITyADJ=14
+ ICtDFT=  3500011 ScaDFX=  1.000000  1.000000  1.000000  1.000000
+ FoFCou: FMM=F IPFlag=           0 FMFlag=      100000 FMFlg1=           0
+         NFxFlg=           0 DoJE=T BraDBF=F KetDBF=T FulRan=T
+         wScrn=  0.000000 ICntrl=       500 IOpCl=  0 I1Cent=   200000004 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Petite list used in FoFCou.
+ Initial guess orbital symmetries:
+ Alpha Orbitals:
+       Occupied  (A1G) (A1G) (T1U) (T1U) (T1U) (A1G)
+       Virtual   (T1U) (T1U) (T1U) (A1G) (T1U) (T1U) (T1U)
+ Beta  Orbitals:
+       Occupied  (A1G) (A1G) (T1U) (T1U) (T1U)
+       Virtual   (A1G) (T1U) (T1U) (T1U) (A1G) (T1U) (T1U) (T1U)
+ The electronic state of the initial guess is 2-A1G.
+ Initial guess <Sx>= 0.0000 <Sy>= 0.0000 <Sz>= 0.5000 <S**2>= 0.7500 S= 0.5000
+ Keep R1 and R2 ints in memory in symmetry-blocked form, NReq=807913.
+ Requested convergence on RMS density matrix=1.00D-08 within 128 cycles.
+ Requested convergence on MAX density matrix=1.00D-06.
+ Requested convergence on             energy=1.00D-06.
+ No special actions if energy rises.
+ SCF Done:  E(UHF) =  -160.854064686     A.U. after    8 cycles
+            NFock=  8  Conv=0.31D-09     -V/T= 2.0037
+ <Sx>= 0.0000 <Sy>= 0.0000 <Sz>= 0.5000 <S**2>= 0.7500 S= 0.5000
+ <L.S>= 0.000000000000E+00
+ Annihilation of the first spin contaminant:
+ S**2 before annihilation     0.7500,   after     0.7500
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Orbital symmetries:
+ Alpha Orbitals:
+       Occupied  (A1G) (A1G) (T1U) (T1U) (T1U) (A1G)
+       Virtual   (T1U) (T1U) (T1U) (A1G) (T1U) (T1U) (T1U)
+ Beta  Orbitals:
+       Occupied  (A1G) (A1G) (T1U) (T1U) (T1U)
+       Virtual   (A1G) (T1U) (T1U) (T1U) (A1G) (T1U) (T1U) (T1U)
+ The electronic state is 2-A1G.
+ Alpha  occ. eigenvalues --  -40.21918  -2.77439  -1.48929  -1.48929  -1.48929
+ Alpha  occ. eigenvalues --   -0.18052
+ Alpha virt. eigenvalues --    0.02663   0.02663   0.02663   0.11830   0.15413
+ Alpha virt. eigenvalues --    0.15413   0.15413
+  Beta  occ. eigenvalues --  -40.21678  -2.76798  -1.48720  -1.48720  -1.48720
+  Beta virt. eigenvalues --    0.01836   0.04943   0.04943   0.04943   0.15625
+  Beta virt. eigenvalues --    0.18511   0.18511   0.18511
+     Alpha Molecular Orbital Coefficients:
+                           1         2         3         4         5
+                       (A1G)--O  (A1G)--O  (T1U)--O  (T1U)--O  (T1U)--O
+     Eigenvalues --   -40.21918  -2.77439  -1.48929  -1.48929  -1.48929
+   1 1   Na 1S          0.99048  -0.26873   0.00000   0.00000   0.00000
+   2        2S          0.03880   1.02289   0.00000   0.00000   0.00000
+   3        2PX         0.00000   0.00000   0.99139   0.00000   0.00000
+   4        2PY         0.00000   0.00000   0.00000   0.00000   0.99139
+   5        2PZ         0.00000   0.00000   0.00000   0.99139   0.00000
+   6        3S         -0.00597   0.04764   0.00000   0.00000   0.00000
+   7        3PX         0.00000   0.00000   0.07300   0.00000   0.00000
+   8        3PY         0.00000   0.00000   0.00000   0.00000   0.07300
+   9        3PZ         0.00000   0.00000   0.00000   0.07300   0.00000
+  10        4S          0.00192  -0.02572   0.00000   0.00000   0.00000
+  11        4PX         0.00000   0.00000  -0.03639   0.00000   0.00000
+  12        4PY         0.00000   0.00000   0.00000   0.00000  -0.03639
+  13        4PZ         0.00000   0.00000   0.00000  -0.03639   0.00000
+                           6         7         8         9        10
+                       (A1G)--O  (T1U)--V  (T1U)--V  (T1U)--V  (A1G)--V
+     Eigenvalues --    -0.18052   0.02663   0.02663   0.02663   0.11830
+   1 1   Na 1S          0.03838   0.00000   0.00000   0.00000  -0.02581
+   2        2S         -0.19011   0.00000   0.00000   0.00000  -0.02518
+   3        2PX         0.00000   0.00000  -0.06640   0.00000   0.00000
+   4        2PY         0.00000   0.00000   0.00000  -0.06640   0.00000
+   5        2PZ         0.00000  -0.06640   0.00000   0.00000   0.00000
+   6        3S          0.51934   0.00000   0.00000   0.00000  -2.00802
+   7        3PX         0.00000   0.00000   0.05494   0.00000   0.00000
+   8        3PY         0.00000   0.00000   0.00000   0.05494   0.00000
+   9        3PZ         0.00000   0.05494   0.00000   0.00000   0.00000
+  10        4S          0.52680   0.00000   0.00000   0.00000   2.01395
+  11        4PX         0.00000   0.00000   0.95755   0.00000   0.00000
+  12        4PY         0.00000   0.00000   0.00000   0.95755   0.00000
+  13        4PZ         0.00000   0.95755   0.00000   0.00000   0.00000
+                          11        12        13
+                       (T1U)--V  (T1U)--V  (T1U)--V
+     Eigenvalues --     0.15413   0.15413   0.15413
+   1 1   Na 1S          0.00000   0.00000   0.00000
+   2        2S          0.00000   0.00000   0.00000
+   3        2PX        -0.18731   0.00000   0.00000
+   4        2PY         0.00000   0.00000  -0.18731
+   5        2PZ         0.00000  -0.18731   0.00000
+   6        3S          0.00000   0.00000   0.00000
+   7        3PX         1.59849   0.00000   0.00000
+   8        3PY         0.00000   0.00000   1.59849
+   9        3PZ         0.00000   1.59849   0.00000
+  10        4S          0.00000   0.00000   0.00000
+  11        4PX        -1.26960   0.00000   0.00000
+  12        4PY         0.00000   0.00000  -1.26960
+  13        4PZ         0.00000  -1.26960   0.00000
+     Beta Molecular Orbital Coefficients:
+                           1         2         3         4         5
+                       (A1G)--O  (A1G)--O  (T1U)--O  (T1U)--O  (T1U)--O
+     Eigenvalues --   -40.21678  -2.76798  -1.48720  -1.48720  -1.48720
+   1 1   Na 1S          0.99047  -0.26873   0.00000   0.00000   0.00000
+   2        2S          0.03883   1.02280   0.00000   0.00000   0.00000
+   3        2PX         0.00000   0.00000   0.99203   0.00000   0.00000
+   4        2PY         0.00000   0.00000   0.00000   0.00000   0.99203
+   5        2PZ         0.00000   0.00000   0.00000   0.99203   0.00000
+   6        3S         -0.00598   0.04869   0.00000   0.00000   0.00000
+   7        3PX         0.00000   0.00000   0.06866   0.00000   0.00000
+   8        3PY         0.00000   0.00000   0.00000   0.00000   0.06866
+   9        3PZ         0.00000   0.00000   0.00000   0.06866   0.00000
+  10        4S          0.00192  -0.02620   0.00000   0.00000   0.00000
+  11        4PX         0.00000   0.00000  -0.03520   0.00000   0.00000
+  12        4PY         0.00000   0.00000   0.00000   0.00000  -0.03520
+  13        4PZ         0.00000   0.00000   0.00000  -0.03520   0.00000
+                           6         7         8         9        10
+                       (A1G)--V  (T1U)--V  (T1U)--V  (T1U)--V  (A1G)--V
+     Eigenvalues --     0.01836   0.04943   0.04943   0.04943   0.15625
+   1 1   Na 1S          0.02802   0.00000   0.00000   0.00000   0.03704
+   2        2S         -0.18837   0.00000   0.00000   0.00000  -0.03851
+   3        2PX         0.00000   0.00000  -0.03300   0.00000   0.00000
+   4        2PY         0.00000   0.00000   0.00000  -0.03300   0.00000
+   5        2PZ         0.00000  -0.03300   0.00000   0.00000   0.00000
+   6        3S         -0.16136   0.00000   0.00000   0.00000   2.06779
+   7        3PX         0.00000   0.00000  -0.20789   0.00000   0.00000
+   8        3PY         0.00000   0.00000   0.00000  -0.20789   0.00000
+   9        3PZ         0.00000  -0.20789   0.00000   0.00000   0.00000
+  10        4S          1.15265   0.00000   0.00000   0.00000  -1.73346
+  11        4PX         0.00000   0.00000   1.15278   0.00000   0.00000
+  12        4PY         0.00000   0.00000   0.00000   1.15278   0.00000
+  13        4PZ         0.00000   1.15278   0.00000   0.00000   0.00000
+                          11        12        13
+                       (T1U)--V  (T1U)--V  (T1U)--V
+     Eigenvalues --     0.18511   0.18511   0.18511
+   1 1   Na 1S          0.00000   0.00000   0.00000
+   2        2S          0.00000   0.00000   0.00000
+   3        2PX        -0.19272   0.00000   0.00000
+   4        2PY         0.00000   0.00000  -0.19272
+   5        2PZ         0.00000  -0.19272   0.00000
+   6        3S          0.00000   0.00000   0.00000
+   7        3PX         1.58606   0.00000   0.00000
+   8        3PY         0.00000   0.00000   1.58606
+   9        3PZ         0.00000   1.58606   0.00000
+  10        4S          0.00000   0.00000   0.00000
+  11        4PX        -1.09544   0.00000   0.00000
+  12        4PY         0.00000   0.00000  -1.09544
+  13        4PZ         0.00000  -1.09544   0.00000
+     Alpha Density Matrix:
+                           1         2         3         4         5
+   1 1   Na 1S          1.05473
+   2        2S         -0.24374   1.08395
+   3        2PX         0.00000   0.00000   0.98286
+   4        2PY         0.00000   0.00000  -0.00000   0.98286
+   5        2PZ         0.00000   0.00000  -0.00000   0.00000   0.98286
+   6        3S          0.00122  -0.05023   0.00000   0.00000   0.00000
+   7        3PX         0.00000   0.00000   0.07237   0.00000   0.00000
+   8        3PY         0.00000   0.00000   0.00000   0.07237   0.00000
+   9        3PZ         0.00000   0.00000   0.00000   0.00000   0.07237
+  10        4S          0.02903  -0.12638   0.00000   0.00000   0.00000
+  11        4PX         0.00000   0.00000  -0.03608   0.00000   0.00000
+  12        4PY         0.00000   0.00000   0.00000  -0.03608  -0.00000
+  13        4PZ         0.00000   0.00000   0.00000  -0.00000  -0.03608
+                           6         7         8         9        10
+   6        3S          0.27202
+   7        3PX         0.00000   0.00533
+   8        3PY         0.00000   0.00000   0.00533
+   9        3PZ         0.00000   0.00000   0.00000   0.00533
+  10        4S          0.27235   0.00000   0.00000   0.00000   0.27819
+  11        4PX         0.00000  -0.00266   0.00000   0.00000   0.00000
+  12        4PY         0.00000   0.00000  -0.00266  -0.00000   0.00000
+  13        4PZ         0.00000   0.00000  -0.00000  -0.00266   0.00000
+                          11        12        13
+  11        4PX         0.00132
+  12        4PY        -0.00000   0.00132
+  13        4PZ        -0.00000   0.00000   0.00132
+     Beta Density Matrix:
+                           1         2         3         4         5
+   1 1   Na 1S          1.05324
+   2        2S         -0.23639   1.04762
+   3        2PX         0.00000   0.00000   0.98413
+   4        2PY         0.00000   0.00000  -0.00000   0.98413
+   5        2PZ         0.00000   0.00000  -0.00000  -0.00000   0.98413
+   6        3S         -0.01901   0.04957   0.00000   0.00000   0.00000
+   7        3PX         0.00000   0.00000   0.06811   0.00000   0.00000
+   8        3PY         0.00000   0.00000   0.00000   0.06811   0.00000
+   9        3PZ         0.00000   0.00000   0.00000   0.00000   0.06811
+  10        4S          0.00895  -0.02673   0.00000   0.00000   0.00000
+  11        4PX         0.00000   0.00000  -0.03492  -0.00000  -0.00000
+  12        4PY         0.00000   0.00000  -0.00000  -0.03492  -0.00000
+  13        4PZ         0.00000   0.00000  -0.00000  -0.00000  -0.03492
+                           6         7         8         9        10
+   6        3S          0.00241
+   7        3PX         0.00000   0.00471
+   8        3PY         0.00000   0.00000   0.00471
+   9        3PZ         0.00000   0.00000   0.00000   0.00471
+  10        4S         -0.00129   0.00000   0.00000   0.00000   0.00069
+  11        4PX         0.00000  -0.00242  -0.00000  -0.00000   0.00000
+  12        4PY         0.00000  -0.00000  -0.00242  -0.00000   0.00000
+  13        4PZ         0.00000  -0.00000  -0.00000  -0.00242   0.00000
+                          11        12        13
+  11        4PX         0.00124
+  12        4PY         0.00000   0.00124
+  13        4PZ         0.00000   0.00000   0.00124
+    Full Mulliken population analysis:
+                           1         2         3         4         5
+   1 1   Na 1S          2.10798
+   2        2S         -0.10888   2.13157
+   3        2PX         0.00000   0.00000   1.96699
+   4        2PY         0.00000   0.00000   0.00000   1.96699
+   5        2PZ         0.00000   0.00000   0.00000  -0.00000   1.96699
+   6        3S         -0.00003  -0.00009   0.00000   0.00000   0.00000
+   7        3PX         0.00000   0.00000   0.01697   0.00000   0.00000
+   8        3PY         0.00000   0.00000   0.00000   0.01697   0.00000
+   9        3PZ         0.00000   0.00000   0.00000   0.00000   0.01697
+  10        4S          0.00061  -0.02551   0.00000   0.00000   0.00000
+  11        4PX         0.00000   0.00000  -0.00283  -0.00000  -0.00000
+  12        4PY         0.00000   0.00000  -0.00000  -0.00283   0.00000
+  13        4PZ         0.00000   0.00000   0.00000   0.00000  -0.00283
+                           6         7         8         9        10
+   6        3S          0.27443
+   7        3PX         0.00000   0.01004
+   8        3PY         0.00000   0.00000   0.01004
+   9        3PZ         0.00000   0.00000   0.00000   0.01004
+  10        4S          0.23748   0.00000   0.00000   0.00000   0.27888
+  11        4PX         0.00000  -0.00394   0.00000   0.00000   0.00000
+  12        4PY         0.00000   0.00000  -0.00394  -0.00000   0.00000
+  13        4PZ         0.00000  -0.00000  -0.00000  -0.00394   0.00000
+                          11        12        13
+  11        4PX         0.00256
+  12        4PY         0.00000   0.00256
+  13        4PZ         0.00000   0.00000   0.00256
+     Gross orbital populations:
+                         Total     Alpha     Beta      Spin
+   1 1   Na 1S          1.99968   0.99993   0.99975   0.00018
+   2        2S          1.99709   1.00043   0.99666   0.00377
+   3        2PX         1.98113   0.99016   0.99096  -0.00080
+   4        2PY         1.98113   0.99016   0.99096  -0.00080
+   5        2PZ         1.98113   0.99016   0.99096  -0.00080
+   6        3S          0.51178   0.50344   0.00834   0.49510
+   7        3PX         0.02308   0.01201   0.01107   0.00094
+   8        3PY         0.02308   0.01201   0.01107   0.00094
+   9        3PZ         0.02308   0.01201   0.01107   0.00094
+  10        4S          0.49145   0.49620  -0.00475   0.50095
+  11        4PX        -0.00421  -0.00218  -0.00203  -0.00015
+  12        4PY        -0.00421  -0.00218  -0.00203  -0.00015
+  13        4PZ        -0.00421  -0.00218  -0.00203  -0.00015
+          Condensed to atoms (all electrons):
+               1
+     1  Na  11.000000
+          Atomic-Atomic Spin Densities.
+               1
+     1  Na   1.000000
+ Mulliken charges and spin densities:
+               1          2
+     1  Na  -0.000000   1.000000
+ Sum of Mulliken charges =  -0.00000   1.00000
+ Mulliken charges and spin densities with hydrogens summed into heavy atoms:
+               1          2
+     1  Na  -0.000000   1.000000
+ Electronic spatial extent (au):  <R**2>=             27.6383
+ Charge=             -0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=              0.0000    Y=              0.0000    Z=              0.0000  Tot=              0.0000
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=            -12.3915   YY=            -12.3915   ZZ=            -12.3915
+   XY=             -0.0000   XZ=              0.0000   YZ=             -0.0000
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=              0.0000   YY=              0.0000   ZZ=              0.0000
+   XY=             -0.0000   XZ=              0.0000   YZ=             -0.0000
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=              0.0000  YYY=              0.0000  ZZZ=              0.0000  XYY=              0.0000
+  XXY=              0.0000  XXZ=              0.0000  XZZ=              0.0000  YZZ=              0.0000
+  YYZ=              0.0000  XYZ=              0.0000
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=            -60.7490 YYYY=            -60.7490 ZZZZ=            -60.7490 XXXY=              0.0000
+ XXXZ=              0.0000 YYYX=              0.0000 YYYZ=             -0.0000 ZZZX=              0.0000
+ ZZZY=             -0.0000 XXYY=            -20.2497 XXZZ=            -20.2497 YYZZ=            -20.2497
+ XXYZ=             -0.0000 YYXZ=              0.0000 ZZXY=              0.0000
+ N-N= 0.000000000000D+00 E-N=-3.868851288980D+02  KE= 1.602653174560D+02
+ Symmetry AG   KE= 1.256644738646D+02
+ Symmetry B1G  KE= 0.000000000000D+00
+ Symmetry B2G  KE= 0.000000000000D+00
+ Symmetry B3G  KE= 0.000000000000D+00
+ Symmetry AU   KE= 0.000000000000D+00
+ Symmetry B1U  KE= 1.153361453047D+01
+ Symmetry B2U  KE= 1.153361453047D+01
+ Symmetry B3U  KE= 1.153361453047D+01
+ Symmetry AG   SP= 1.000000000000D+00
+ Symmetry B1G  SP= 0.000000000000D+00
+ Symmetry B2G  SP= 0.000000000000D+00
+ Symmetry B3G  SP= 0.000000000000D+00
+ Symmetry AU   SP= 0.000000000000D+00
+ Symmetry B1U  SP=-3.266951020418D-16
+ Symmetry B2U  SP=-5.483869177443D-16
+ Symmetry B3U  SP=-5.497527583718D-16
+ Orbital energies and kinetic energies (alpha):
+                                 1                 2
+   1         (A1G)--O        -40.219181         55.874291
+   2         (A1G)--O         -2.774394          6.829360
+   3         (T1U)--O         -1.489290          5.763318
+   4         (T1U)--O         -1.489290          5.763318
+   5         (T1U)--O         -1.489290          5.763318
+   6         (A1G)--O         -0.180515          0.258968
+   7         (T1U)--V          0.026631          0.088491
+   8         (T1U)--V          0.026631          0.088491
+   9         (T1U)--V          0.026631          0.088491
+  10         (A1G)--V          0.118302          0.233295
+  11         (T1U)--V          0.154130          0.396292
+  12         (T1U)--V          0.154130          0.396292
+  13         (T1U)--V          0.154130          0.396292
+ Orbital energies and kinetic energies (beta):
+                                 1                 2
+   1         (A1G)--O        -40.216785         55.873280
+   2         (A1G)--O         -2.767983          6.828575
+   3         (T1U)--O         -1.487197          5.770296
+   4         (T1U)--O         -1.487197          5.770296
+   5         (T1U)--O         -1.487197          5.770296
+   6         (A1G)--V          0.018360          0.146811
+   7         (T1U)--V          0.049427          0.061977
+   8         (T1U)--V          0.049427          0.061977
+   9         (T1U)--V          0.049427          0.061977
+  10         (A1G)--V          0.156247          0.347247
+  11         (T1U)--V          0.185109          0.415828
+  12         (T1U)--V          0.185109          0.415828
+  13         (T1U)--V          0.185109          0.415828
+ Total kinetic energy from orbitals= 1.602653174560D+02
+                          Isotropic Fermi Contact Couplings
+        Atom                 a.u.       MegaHertz       Gauss      10(-4) cm-1
+     1  Na(23)             0.38090     450.61049     160.78903     150.30748
+ --------------------------------------------------------
+       Center         ----  Spin Dipole Couplings  ----
+                      3XX-RR        3YY-RR        3ZZ-RR
+ --------------------------------------------------------
+     1   Atom       -0.000000     -0.000000      0.000000
+ --------------------------------------------------------
+                        XY            XZ            YZ
+ --------------------------------------------------------
+     1   Atom        0.000000      0.000000      0.000000
+ --------------------------------------------------------
+
+
+ ---------------------------------------------------------------------------------
+              Anisotropic Spin Dipole Couplings in Principal Axis System
+ ---------------------------------------------------------------------------------
+
+       Atom             a.u.   MegaHertz   Gauss  10(-4) cm-1        Axes
+
+              Baa    -0.0000    -0.000    -0.000    -0.000  1.0000  0.0000  0.0000
+     1 Na(23) Bbb    -0.0000    -0.000    -0.000    -0.000 -0.0000  1.0000  0.0000
+              Bcc     0.0000     0.000     0.000     0.000  0.0000  0.0000  1.0000
+ 
+
+ ---------------------------------------------------------------------------------
+
+
+ Test job not archived.
+ 1\1\GINC-LAURENS-IMAC-2\SP\UHF\3-21G\Na1(2)\ROOT\15-Jul-2022\0\\# uhf/
+ 3-21g pop=full iop(3/33=1)\\Title Card Required\\0,2\Na,0,-1.47239272,
+ 1.13496931,0.\\Version=EM64M-G16RevB.01\State=2-A1G\HF=-160.8540647\S2
+ =0.750036\S2-1=0.\S2A=0.75\RMSD=3.135e-10\Dipole=0.,0.,0.\Quadrupole=0
+ .,0.,0.,0.,0.,0.\PG=OH [O(Na1)]\\@
+
+
+ THERE ARE PEOPLE SO ADDICTED TO EXAGERATING THEY
+ CAN'T TELL THE TRUTH WITHOUT LYING. -- FORTUNE COOKIE
+ Job cpu time:       0 days  0 hours  0 minutes  0.7 seconds.
+ Elapsed time:       0 days  0 hours  0 minutes  0.8 seconds.
+ File lengths (MBytes):  RWF=      6 Int=      0 D2E=      0 Chk=      1 Scr=      1
+ Normal termination of Gaussian 16 at Fri Jul 15 10:20:58 2022.
