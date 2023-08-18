@@ -1,4 +1,1 @@
 # MANIFEST.in
-
-include src/data/*.log
-include src/notebook/*.ipynb
